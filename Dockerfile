@@ -1,7 +1,7 @@
 FROM       63isok/media-server:latest
 MAINTAINER 63isOK <1876180681@qq.com>
 
-EXPOSE 8888
+EXPOSE 8765
 
 COPY ./entrypoint.sh /entrypoint.sh
 

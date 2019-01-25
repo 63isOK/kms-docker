@@ -4,8 +4,7 @@
 ---
 - latest: the latest version
 - other: the old version
-  - 0.8.0: kms with rtmp client, no turn setting
-  - 0.8.1: kms with rtmp client, with turn setting(KMS_TURN_URL)
+  - 0.8.0: kms with rtmp client, with turn setting(KMS_TURN_URL)
 
 ---
 - create container：
