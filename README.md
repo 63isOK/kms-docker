@@ -8,7 +8,7 @@
 
 ---
 - create container：
-  docker run -t -i --name=kms 63isok/media-server:latest
+  docker run -d --name kms -p 8888:8765 -e KMS_TURN_URL=turnURL=test123:123456@192.168.100.180:3478 63isok/kms-docker-autobuild:latest
 - open shell: 
   docker exec -u=yb -w=/home/yb -t -i kms /usr/bin/zsh
 
